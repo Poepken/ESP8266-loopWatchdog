@@ -14,7 +14,7 @@
 //for WiFi
 #include <ESP8266WiFi.h>
 
-//for DHT Sensor -- this is old Arduino Libs
+//for DHT Sensor
 #include <DHTesp.h>
 
 //for MQTT
@@ -66,7 +66,7 @@ float HumidityDHT22=0;
 TempAndHumidity lastValues;
 
 
-/* timing variables*/
+/* timing variables */
 // for software watchdog timer
 #define OSWATCH_RESET_TIME 60 // if stuck in loop for 60 seconds, trigger reset
 static unsigned long last_loop;
@@ -110,7 +110,6 @@ void connect_WiFi() {
   Serial.println("WiFi connected");
 
   // Print the IP address on serial monitor
-  // TODO: Check + Setup to standard IP (https://internetofhomethings.com/homethings/?p=631)
   Serial.print("Use this URL to connect: ");
   Serial.print("http://");
   Serial.print(WiFi.localIP());
