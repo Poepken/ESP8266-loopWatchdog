@@ -1,6 +1,6 @@
-#ESP8266-loopWatchdog
+# ESP8266-loopWatchdog
 
-
+## English
 Example Code for a ESP8266 based sensor that delivers data to 
 a MQTT broker and utilizes the "loop watchdog" on top of the
 hardware and software watchdogs.
@@ -9,7 +9,7 @@ The change of adding a "loop watchdog" has improved reliability greatly - instea
 the sensor freezing every couple of days, it runs now for
 a couple of months without interruption. 
 
-Deutsch:
+## Deutsch
 
 Beispielcode für einen ESP8266 basierten Sensor, der Daten an einen
 MQTT Broker liefert, und mit einem "loop watchdog" arbeitet, der
@@ -21,6 +21,6 @@ des Sensors deutlich verbessern. Statt alle paar Tage nicht mehr zu
 reagieren, läuft der Sensor nun schon für Montate zuverlässig und liefert
 seine Daten.
 
-Siehe http://tim.poepken.net/index.php?id=blog&post=esp8266-watchdog für
-eine kurze Übersicht.
+Siehe [in meinem Blog] (http://tim.poepken.net/index.php?id=blog&post=esp8266-watchdog) für
+eine kurze Übersicht mit weiteren Links.
 
